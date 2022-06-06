@@ -1,0 +1,44 @@
+body {
+    background: #e5e5e5;
+    color: #757575;
+}
+.list {
+    list-style: none;
+}
+/*logo*/
+
+/*site nav*/
+.site-nav {
+    color: #212121;
+}
+.studio:hover,
+.studio:focus {
+    color: #2196F3;
+}
+.portfolio:hover,
+.portfolio:focus {
+    color: #2196F3;
+}
+.contact:hover,
+.contact:focus {
+    color: #2196F3;
+}
+.site-contact {
+    color: #757575;
+}
+.email:hover,
+.email:focus {
+    color: #2196F3;
+}
+.tel:hover,
+.tel:focus {
+    color: #2196F3;
+}
+/*hero*/
+.hero {
+    background-color: #2F303A;
+
+}
+.hero-title {
+    color: #FFFFFF;
+}
