@@ -1,44 +1,98 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #E5E5E5;
+    --secondary-bg-color: #F5F4FA;
+    --tertiary-bg-color: #2F303A;
+    --button-text: #FFFFFF;
+}
 body {
-    background: #e5e5e5;
-    color: #757575;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03;
 }
 .list {
     list-style: none;
 }
-/*logo*/
-
-/*site nav*/
-.site-nav {
-    color: #212121;
+a.link {
+    text-decoration: none;
+    outline: none;
 }
-.studio:hover,
-.studio:focus {
-    color: #2196F3;
+.link:hover, .link:focus {
+    color: var(--accent-color);
 }
-.portfolio:hover,
-.portfolio:focus {
-    color: #2196F3;
+.logo {
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
-.contact:hover,
-.contact:focus {
-    color: #2196F3;
+.logo > span {
+    color: var(--title-text-color);
 }
-.site-contact {
-    color: #757575;
+.site-nav .link {
+    color: var(--title-text-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
 }
-.email:hover,
-.email:focus {
-    color: #2196F3;
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
 }
-.tel:hover,
-.tel:focus {
-    color: #2196F3;
+.site-nav .link.current {
+    color: var(--accent-color);
 }
-/*hero*/
-.hero {
-    background-color: #2F303A;
-
+.site-contact .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.site-contact .link:hover,
+.site-contact .link:focus {
+    color: var(--accent-color);
 }
 .hero-title {
-    color: #FFFFFF;
+    color: var(--button-text);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+h2, h3 {
+    color: var(--title-text-color);
+    
+}
+.button-primary {
+    color: var(--button-text);    ;
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88px;
+}
+.feature-title {
+    display: none;
+}
+.address {
+    color: var(--button-text);
+}
+
+
+/*portfolio*/
+button {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+button:active {
+    color: var(--button-text);
+    background-color: var(--accent-color);
 }
