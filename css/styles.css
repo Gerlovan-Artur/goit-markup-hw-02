@@ -131,6 +131,9 @@ h2, h3 {
 
 /*portfolio*/
 .filtr button {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    
     background-color: var(--secondary-bg-color);
     color: var(--title-text-color);
     border-radius: 4px;
